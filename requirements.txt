@@ -1,0 +1,15 @@
+# Manga Downloader – Python dependencies
+# Install with: pip install -r requirements.txt --break-system-packages
+# Then run once: playwright install chromium
+
+# Headless browser (for scraping JS-rendered pages)
+playwright>=1.44.0
+
+# HTTP requests (for downloading images and API calls)
+requests>=2.31.0
+
+# Web GUI
+flask>=3.0.0
+
+# Pillow is optional – not currently used but useful for future image processing
+# Pillow>=10.0.0
